@@ -1,30 +1,21 @@
-Thank you for purchasing my Stellar template.
+I appreciate you using my Xiteter template.
 
-Please follow the steps below for installation:
+Please adhere to the installation instructions below:
 
-1. Make sure you have the dependencies for building the Panel assets:
+1. Verify that the prerequisites for creating the Panel assets are present:
 https://pterodactyl.io/community/customization/panel.html
 
-2. Once you have done this, replace the files with those provided in this .ZIP
-!! Please note that these are only the files that have been modified in the theme. You must therefore ensure that you only replace these files. Do NOT delete any files!
+2. After you've finished, swap out the existing files with those in this.ZIP !! Please notice that only the files that were altered by the theme are listed here. Therefore, you must be careful to just replace these files. Delete no files, ever!
 
-3. When the files have been successfully installed, run the following commands:
-| cd /var/www/pterodactyl
-| yarn add react-feather
-| php artisan migrate
-| > yes
-| yarn build:production
-| php artisan view:clear
+3. Execute the following commands once the files have been successfully installed: | cd /var/www/pterodactyl | yarn add react-feather | php artisan migrate | > Yes | yarn build:production | clean php artisan
 
-4. The theme should be installed after the last command. You can now change the theme in admin panel > settings > theme.
+4. After the final command, the theme has to be installed. Now go to admin panel > settings > theme to alter the theme.
 
-+ If you want to install a different language, go to this file and change the text to your language:
-> /resources/scripts/lang.tsx
+Change the text in this file, located at /resources/scripts/lang.tsx, to the language you wish to install: +
 
-When you're finished changing the language run this 2 commands:
-| cd /var/www/pterodactyl
-| yarn build:production
+Run these two commands once you've completed changing the language: | cd /var/www/pterodactyl | yarn build:production
 
-If you have any problems you can contact us in the following discord server: 
+You can get in touch with us in the following Discord server if you need assistance: 
 
-When making a ticket make sure to provide your username: 
+If you create a ticket, be sure to provide your username: 
+
